@@ -5,6 +5,8 @@
 2. API endpoints
 3. Database
 4. CRUD operations using Django's generic API views
+5. Django Signals for performance calculations
+6. Implementation of Token based authentication
 
 ## Models and Serializers
 Models are implemented using django models class. Models are interlinked or related using vendor model as the foreign_key for both Purchase_order and Performance model. Serializers are implemented using djangoRESTframework's modelSerializers. Using modelSerializers not only saves the hassel to declare each and every field but also consumes a lot lesser time. 
