@@ -12,7 +12,7 @@ class Command(BaseCommand):
         faker = Faker()
         vendors = list(Vendor.objects.all())
 
-        for _ in range(100):
+        for _ in range(1000):
             vendor = random.choice(vendors)
             po_number = faker.unique.uuid4()
             order_date = faker.date_time_this_year()
