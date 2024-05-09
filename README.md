@@ -61,5 +61,5 @@ python manage.py podata.py
 ```
 The above commands will populate the database with 100 vendors and 1000 purchase_orders, once database is populated you can proceed with hitting the API endpoints.
 
-##Areas of improvement:
+## Areas of improvement:
 I am well aware that the above code is not upto the mark, there are many improvements yet to be done. I am not at all trying to defend but I would like to bring it to your notice that I got very little time to develop this API due to my current long working shifts that may last upto 15 hours 6 days a week. There could be changes like Pagination for API responses and Data Validation in model Serializers. I hope you will judge the code taking this in consideration. Hoping to get a response from you. Thank you for the opportunity. 
