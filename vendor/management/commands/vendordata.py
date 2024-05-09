@@ -9,7 +9,7 @@ class Command(BaseCommand):
     def handle(self, *args, **kwargs):
         faker = Faker()
 
-        for _ in range(10):
+        for _ in range(100):
             vendor = Vendor.objects.create(
                 vendor_id=faker.unique.random_number(digits=5),
                 name=faker.company(),
